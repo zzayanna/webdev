@@ -1,0 +1,38 @@
+.promo {
+  margin: 135px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 734px;
+  height: 424px;
+}
+
+.promo__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    margin: 0;
+    margin-bottom: 7px;
+    font-size: 64px;
+    text-transform: uppercase;
+    font-size: 64px;
+    line-height: 75px;
+    letter-spacing: 4.5px;
+  }
+
+  p {
+    text-align: center;
+    width: 504px;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 140%;
+  }
+
+  button {
+    margin-top: 10px;
+  }
+}

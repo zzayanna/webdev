@@ -1,0 +1,36 @@
+.our-community {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 504px;
+  background-color: $color-background;
+
+  .our-community__info {
+    margin: 0 139px 0 190px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 298px;
+
+    h3 {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 20px;
+      letter-spacing: 2.4px;
+      text-transform: uppercase;
+      color: $color-titles;
+    }
+
+    p {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 140%;
+      text-align: center;
+      color: $color-text;
+    }
+  }
+}
+

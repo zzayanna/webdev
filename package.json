@@ -1,0 +1,23 @@
+{
+  "name": "webdev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "style": "sass --watch sass/main.scss sass/main.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zzayanna/webdev.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zzayanna/webdev/issues"
+  },
+  "homepage": "https://github.com/zzayanna/webdev#readme",
+  "dependencies": {
+    "normalize-scss": "^7.0.1"
+  }
+}
