@@ -2,22 +2,38 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 583px;
-  height: 100%;
 
   a {
     color: white;
     text-decoration: none;
     font-size: 14px;
-    line-height: 140%;
   }
 }
 
-.active::after {
-  display: block;
-  content: "";
-  height: 1px;
-  width: 100%;
-  background-color: #FFFF;
-  transition: width .3s ease-in-out;
+.main-menu {
+  width: 583px;
+  height: 100%;
+
+  .active::after {
+    display: block;
+    content: "";
+    height: 1px;
+    width: 100%;
+    background-color: #FFFF;
+    transition: width .3s ease-in-out;
+  }
+}
+
+.additional-menu {
+  width: 280px;
+  height: 20px;
+
+  a {
+    padding: 0 20px;
+  }
+
+  :nth-child(2) {
+    border-left: 1px solid #4E4E4E;
+    border-right: 1px solid #4E4E4E;
+  }
 }

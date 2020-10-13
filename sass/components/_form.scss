@@ -1,0 +1,39 @@
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 406px;
+  height: 46px;
+
+  &__input {
+    padding-left: 24px;
+    width: 340px;
+    height: 100%;
+    border: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    color: $color-titles;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  &__submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 66px;
+    height: 100%;
+    border: 0;
+    background-color: $color-button;
+    cursor: pointer;
+    transition: .3s;
+
+    &:hover {
+      background-color: $color-hover;
+    }
+  }
+}

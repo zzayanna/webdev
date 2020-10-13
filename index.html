@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,10 +8,11 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
   <link rel="stylesheet" href="sass/main.css">
 </head>
+
 <body>
   <div class="wrapper">
     <header class="header">
-      <nav class="navigation">
+      <nav class="navigation main-menu">
         <a class="active" href="#">About</a>
         <a href="#">Syllabus</a>
         <a href="#"><img src="./assets/logo.png" alt="site logo"></a>
@@ -22,7 +24,7 @@
       <div class="promo__content">
         <h1>your life is WebDev</h1>
         <p>Whatever the approach to development may be, the final program must satisfy some fundamental properties</p>
-        <button class="button-main"><a href="#">Get started</a></button>
+        <button class="button-main"><a href="#start">Get started</a></button>
       </div>
       <div class="socials">
         <a href="#"><img src="./assets/icons/mail_fff.svg"></a>
@@ -32,11 +34,12 @@
       </div>
     </div>
   </div>
-  <section class="two-column-layout">
+  <section class="two-column-layout" id="start">
     <div class="offer-block">
       <h2>Represent your idea with a smart Design</h2>
-      <p>Tasks accompanying and related to programming include: testing, debugging, source code maintenance, <strong>implementation
-         of build systems,</strong> and management of derived artifacts, such as the machine code of computer programs.
+      <p>Tasks accompanying and related to programming include: testing, debugging, source code maintenance,
+        <strong>implementation
+          of build systems,</strong> and management of derived artifacts, such as the machine code of computer programs.
       </p>
       <button class="button-main"><a href="#">Get started</a></button>
     </div>
@@ -47,12 +50,12 @@
       <img src="./assets/images/userpic-wrapper.png">
       <h3>our community</h3>
       <p>A hacker is any skilled computer expert that uses their technical knowledge to overcome a problem,
-         but it can also mean a security hacker in common language</p>
+        but it can also mean a security hacker in common language</p>
     </div>
     <div class="slider">
       <div class="slider__buttons">
         <img src="./assets/icons/arrow-left.png">
-        <p>1 / 5</p> 
+        <p>1 / 5</p>
         <img src="./assets/icons/arrow-right.png">
       </div>
       <div class="slider__images">
@@ -66,11 +69,39 @@
     <img src="./assets/images/content-image-2.png">
     <div class="offer-block">
       <h2>Implement right Code</h2>
-      <p>These might be considered part of the <strong>programming process,</strong> but often the term software development is used for this larger
-         process with the term programming, implementation
+      <p>These might be considered part of the <strong>programming process,</strong> but often the term software
+        development is used for this larger
+        process with the term programming, implementation
       </p>
       <button class="button-main"><a href="#">Learn more</a></button>
     </div>
   </section>
+  <section class="center-layout sign-up">
+    <h2>sign up for our newsletter</h2>
+    <div class="form">
+      <input type="email" class="form__input" name="" id="" placeholder="E-mail">
+      <button type="submit" class="form__submit"><img src="./assets/icons/check-icon.png"></button>
+    </div>
+  </section>
+  <section class="center-layout download">
+    <div class="offer-block download__content">
+      <h2>Download the App</h2>
+      <p>Machine code was the language of early programs, written in the instruction set of the particular machine,
+        often in binary notation.</p>
+      <div class="download__buttons">
+        <button class="button-store"><a class="button-store__text" href="#">Apple store</a><a href="#" class="button-store__icon"><img src="./assets/icons/icon-apple.png"></a></button>
+        <button class="button-store"><a class="button-store__text" href="#">Play market</a><a href="#" class="button-store__icon"><img src="./assets/icons/icon-android.png"></a></button>
+      </div>
+  </section>
+  <footer class="footer">
+    <nav class="navigation additional-menu">
+      <a href="#">Credits</a>
+      <a href="#">Privacy</a>
+      <a href="#">Our teams</a>
+    </nav>
+    <a href=""><img src="./assets/logo.png" alt="site logo"></a>
+    <p>by TonYem for RSS at 2020</p>
+  </footer>
 </body>
+
 </html>
